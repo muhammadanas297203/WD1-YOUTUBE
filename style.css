@@ -1,0 +1,82 @@
+.parent{
+display: flex;
+justify-content:center;
+}
+
+.text{
+    border-radius: 25px;
+    font-size: xx-large;
+    padding: auto;
+}
+.mic{
+    height: 50px;
+    
+}
+
+.camera{
+    height: 50px;
+}
+.bell{
+    height: 50px;
+}
+
+.search{
+    height: 50px;
+}
+
+.img{
+    height: 100px;
+}
+
+.all{
+    background-color:rgb(209, 209, 209);
+    color: black;
+    cursor: pointer;
+    border-radius:5px;
+    font-size:large;
+border: none;
+padding:7px;
+
+}
+
+:hover.all{
+    background-color: rgb(90, 89, 89);
+}
+
+
+.menu{
+    font-size:xx-large;
+    display: grid;
+    position: absolute;
+    left: 20px;
+    top:110px;
+}
+
+.video{
+    width:500px;
+    height: 400px;
+    padding-left: 10%;
+}
+
+.VID{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
+}
+.timer{
+    padding-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
